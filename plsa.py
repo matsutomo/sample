@@ -58,7 +58,7 @@ class plsa():
 		# print "P(d,w) = ",
 		### print self.pdw # P(d,w) 最終的な出力ではこの項はなかった
 
-		####### print "\n"
+	print "\n"
 
 
 	def train(self,k=1000):
