@@ -45,7 +45,7 @@ class plsa():
 		self.pdw = self.arr([ self.nd, self.nw ]) # P(d,w)
 		# print self.pdw
 
-		####### print "\n"
+		print "\n"
 
 		# print "P(z) = ",
 		### print self.pz # P(z) 確認用
