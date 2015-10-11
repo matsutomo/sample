@@ -7,7 +7,7 @@ import random
 
 class plsa():
 
-	## コンストラクタ
+	## コンストラクタ　テスト
 	def __init__(self,n,nz=5):
 		""" n:dw行列 nz:潜在変数(トピック)の数""" # d:文書 w:単語 nz:トピック数
 		self.n = n  # インスタンス変数n 入力行列
@@ -106,7 +106,6 @@ class plsa():
 		else:
 			# print "else"
 			return plsa.normalized([ random.random() for i in xrange(list[0]) ])
-
 
 
 	def likelihood(self):
