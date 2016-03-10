@@ -9,7 +9,6 @@ import config
 
 ##################### 歌詞特徴量を求めるための関数 ##########################
 
-
 # ファイル名をリストに追加する関数(歌詞用)
 ## 入力: パス名
 ## 出力: リスト化したファイル名, リスト化した歌詞
@@ -33,7 +32,7 @@ def Get_file_contents(path):
 ## 出力: TF
 def Calc_tf(sentence):
 
-	f1 = open("review1_normalize_test/" + sentence , "r")
+	f1 = open("/home/matsui-pc/matsui/review1_normalize_test/" + sentence , "r")
 	# f1 = open("test2_normalize/" + sentence , "r")
 
 	data = f1.read()
